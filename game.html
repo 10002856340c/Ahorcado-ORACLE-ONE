@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Juego del ahoracado</title>
+        <link rel="stylesheet" href="css/stylo2.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+
+    </head>
+
+    <body>
+        <header>
+            <img src="img/a-logo.png" class="top-logo"></h1>
+        </header>
+
+        <div class="canvas">
+            <canvas id="draw" height="710px" width="1200px"></canvas>
+            <canvas id="draw-mobile" height="600" width="360" ></canvas>
+            <input id="input-mobile" name="input-mobile" type="text" placeholder="Escribe una letra"  class="input-mobile"></input>
+        </div> 
+
+        <div class="buttons2">
+            <button onclick="refreshPage()" id="button-newGame" class="button-newGame">Nuevo Juego</button>
+            <button onclick="changePage( 'index.html' )" id="button-gameOver" class="button-gameOver">Desistir.</button>
+
+
+        </div>
+
+        <footer>
+            <img src="img/logofooter.png" alt="logo asombroso" class="logo">
+            <p class="foot-text">creado por Sergio S.</p>
+        </footer>       
+
+        <script src="js/Parteprincipal.js"></script>
+        <script src="js/scripts1.js"></script>
+        <script src='js/gameover.js'></script>
+        <script src="js/partesecundaria.js"></script>
+        <script src='js/Parteterciaria.js'></script>
+
+
+    </body> 

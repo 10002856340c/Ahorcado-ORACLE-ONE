@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&display=swap');
+
+
+body{
+    background-color:#aadc1f ;
+    font-family: 'Albert Sans', sans-serif;
+}
+header{
+   padding: 20px 30px;
+}
+
+
+.buttons{
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 10%;
+    font-family: 'Albert Sans', sans-serif;
+    
+}
+.button-start{
+    
+    height: 67px;
+    background: #000000;
+    border-radius: 24px;
+    color: #E5E5E5;
+    width: 100%;
+    font-weight:bold;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button-start:hover{
+    background-color: #0A3871;
+    transition: 0.5s;
+}
+.button-add-word{
+    
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #000000;
+    width: 80%;
+    margin-top: 5%;
+    border-color: #000000;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button-add-word:hover{
+    background-color: #090a0c;
+    transition: 0.5s;
+    color: antiquewhite;
+}
+
+
+
+#draw{
+    width: 75%;
+    
+}
+
+#draw-mobile{
+    display: none;
+}
+
+.buttons2{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    font-family: 'Albert Sans', sans-serif;
+   
+    
+}
+
+.canvas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.button-newGame{
+    width: 45% ;
+    height: 67px;
+    
+    background: #000000;
+    border-radius: 24px;
+    color: #E5E5E5;
+    font-weight:bold;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 15px;
+}
+.button-newGame:hover{
+    background-color: rgb(138, 43, 226);
+    transition: 0.5s;
+}
+.input-mobile{
+    display: none;
+}
+.button-gameOver{
+    width: 45% ;
+    height: 67px;
+    
+    background: #000000;
+    border-radius: 24px;
+    color: #ffffff;
+    border-color: #0A3871;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button-gameOver:hover{
+    background-color: rgb(35, 35, 245);
+    transition: 0.5s;
+}
+
+.add-block{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    
+}
+.add-word{
+    width: 80%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    outline: none;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+    padding: 30px;
+    
+
+}
+
+.logo{
+    width: 5%;
+    position:relative;
+    top: 270px;
+}
+
+p.foot-text{
+   position:relative;
+   top: 300px;
+   font-weight: bold;
+   font-size: 15px;
+
+
+
+}
+
+@media screen  and (max-width:480px){
+  .buttons{
+      margin-top: 25%;
+      width: 75%;
+  }
+
+  #draw{
+      display: none;
+  }
+  #draw-mobile{
+      display: block ;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      
+  }
+  .buttons2{
+      width: 90%;
+  }
+
+  .button-newGame, .button-gameOver{
+      width: 90%;
+  }
+
+  .logo{
+      width: 20%;
+  }
+  .add-word{
+      font-size: 20px;
+  }
+ .input-mobile{
+    font-size: 15px;
+    display: block;
+    outline: none;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
